@@ -5,12 +5,6 @@ Detects critical conditions (like overheating, high CPU load, or low battery)
 Logs results in a file (device_logs.txt)
 Can monitor multiple devices in one run
 
-Advantages of This Project
-1. Practical Use Case – Simulates how IoT monitoring works in real-world devices.
-2. Core Java Only – No external libraries, easy to understand.
-3. Scalable – Can add more sensors (network speed, memory usage).
-4. File Logging – Keeps history for analysis, just like real monitoring systems.
-5. Good for Learning OOP – Uses classes, methods, encapsulation, and file handling.
 
 🖥️Source Code:
 import java.io.FileWriter;
@@ -81,3 +75,18 @@ public class DeviceMonitoringSystem {
         }
     }
 }
+
+
+🪜Run in Java(VS Code):
+Open VS Code → create file DeviceMonitoringSystem.java.
+Run in terminal: javac DeviceMonitoringSystem.java
+                 java DeviceMonitoringSystem
+Enter number of devices → you’ll see sensor results + logs saved in device_logs.txt.
+
+
+Advantages:
+1. Practical Use Case – Simulates how IoT monitoring works in real-world devices.
+2. Core Java Only – No external libraries, easy to understand.
+3. Scalable – Can add more sensors (network speed, memory usage).
+4. File Logging – Keeps history for analysis, just like real monitoring systems.
+5. Good for Learning OOP – Uses classes, methods, encapsulation, and file handling.
